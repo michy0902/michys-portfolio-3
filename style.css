@@ -1,0 +1,150 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #D9D9D9;
+    margin: auto;
+    padding: 45px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #575757; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; /* Make the button display as an inline block */
+    font-size: 16px; /* Set the font size */
+    margin: 4px 2px; /* Set the margin around the button */
+    cursor: pointer; /* Make the cursor change to a pointer when hovering over the button */
+    border-radius: 12px; 
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid #575757;
+    color: #575757;
+    transition: 0.5s ease ;
+}
+
+.auto-type{
+    color: black;
+}
+
+
+
+/*------------ABOUT ME------------*/
+
+.header {
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+  }
+  
+.header h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+#profilepic{
+    width: 300px;
+}
+span{
+    color:  #D9D9D9;
+}
+ 
+.text{
+    width: 300px;
+    margin-left: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #575757;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.backbtn{
+    background-color: #575757; 
+    border: none; 
+    color: white; 
+    padding: 5px 5px; /* Padding around the text */
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; /* Set the font size */
+    margin: 4px 2px; /* Set the margin around the button */
+    cursor: pointer; /* Make the cursor change to a pointer when hovering over the button */
+    border-radius: 8px; 
+}
+.backbtn:hover{
+    background: transparent;
+    border: 2px solid #575757;
+    color: #575757;
+    transition: 0.5s ease ;
+}
+
+.nextbtn{
+    background-color: #575757; 
+    border: none; 
+    color: white; 
+    padding: 5px 5px; /* Padding around the text */
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; /* Set the font size */
+    margin: 4px 2px; /* Set the margin around the button */
+    cursor: pointer; /* Make the cursor change to a pointer when hovering over the button */
+    border-radius: 8px; 
+}
+.nextbtn:hover{
+    background: transparent;
+    border: 2px solid #575757;
+    color: #575757;
+    transition: 0.5s ease ;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #575757;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+/*----------PROJECT PAGE----------*/
+
+.projectsbtn{
+    display: grid;
+    width: 70px;
+    height: 40px;
+}
