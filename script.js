@@ -7,6 +7,9 @@ function back(){
 function next(){
     window.location.href = "projects.html";
 }
+function social(){
+    window.location.href = "socials.html";
+}
 
 
 var typed = new Typed(".auto-type",{
