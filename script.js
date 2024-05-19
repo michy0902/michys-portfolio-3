@@ -10,6 +10,9 @@ function next(){
 function social(){
     window.location.href = "socials.html";
 }
+function aboutme(){
+    window.location.href ="about.html";
+}
 
 
 var typed = new Typed(".auto-type",{

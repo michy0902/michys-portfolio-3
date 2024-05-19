@@ -8,13 +8,13 @@ body{
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center; 
     position: absolute;
     top: 50%;
     left: 55%;
     transform: translate(-50%, -50%);
     text-align: center;
+
 }
 img{
     width: 40%;
@@ -44,7 +44,6 @@ img{
 .auto-type{
     color: black;
 }
-
 
 
 /*------------ABOUT ME------------*/
@@ -126,6 +125,9 @@ span{
     transition: 0.5s ease ;
 }
 
+
+
+/*----------PROJECT PAGE----------*/
 .projects-container{
     display: flex;
     justify-content: center;
@@ -139,9 +141,6 @@ span{
     padding: 25px;
     border-radius: 15px;
 }
-
-
-/*----------PROJECT PAGE----------*/
 
 .projectsbtn{
     display: grid;
