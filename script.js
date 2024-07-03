@@ -5,7 +5,7 @@ function back(){
     window.location.href = "index.html";
 }
 function next(){
-    window.location.href = "projects.html";
+    window.location.href = "skills.html";
 }
 function social(){
     window.location.href = "socials.html";

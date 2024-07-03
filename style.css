@@ -50,7 +50,7 @@ img{
 
 .header {
     color: black;
-    padding: 10px 0;
+    
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -127,7 +127,7 @@ span{
 
 
 
-/*----------PROJECT PAGE----------*/
+/*----------skills PAGE----------*/
 .projects-container{
     display: flex;
     justify-content: center;
@@ -140,6 +140,8 @@ span{
     background-color: #575757;
     padding: 25px;
     border-radius: 15px;
+    width: 500px;
+    height: 500px;
 }
 
 .projectsbtn{
